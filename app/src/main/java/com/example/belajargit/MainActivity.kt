@@ -32,8 +32,9 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
+    val judulku = stringResource(R.string.app_name)
     Text(
-        text = "Hello $name!",
+        text = "Hello $judulku!",
         modifier = modifier
     )
 }
